@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.custom-background {
+    background-color: rgba(53, 124, 216, 0.8); /* Cor de fundo */
+    background-image: url(https://marketplace.canva.com/EAFYsvRydx4/1/0/1600w/canva-foto-de-fundo-para-linkedin-amarelo-l%C3%A2mpada-minimalista-8m0_uNVtX78.jpg); /* Substitua pelo caminho da sua imagem */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* Imagem fixa ao rolar */
+    height: 400px; /* Altura da div */
+    width: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(219, 31, 31); /* Cor do texto */
+}
